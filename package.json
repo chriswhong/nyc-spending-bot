@@ -1,0 +1,26 @@
+{
+  "name": "nyc-spending-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getSpending.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.22.1",
+    "numeral": "^2.0.6",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "xml2json": "^0.11.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
