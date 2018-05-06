@@ -1,8 +1,10 @@
 const moment = require('moment');
 const checkbookApiCall = require('./checkbook-api-call');
+const tweetSequence = require('./tweet-sequence');
 // get yesterday's transactions.  Get record count from first API call, then paginate until complete
 
-const dateString = moment().subtract(1, 'days').format('YYYY-MM-DD');
+// const dateString = moment().subtract(1, 'days').format('YYYY-MM-DD');
+const dateString = moment('2018-05-04')
 
 const allTransactions = []
 let transactionCount = null;
@@ -22,6 +24,7 @@ const getSpending = () => {
         getSpending();
       } else {
         console.log('I have all of the transactions!')
+        tweetSequence(transactions, dateString);
       }
     });
 };
