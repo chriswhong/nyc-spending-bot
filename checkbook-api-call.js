@@ -2,7 +2,6 @@ const request = require('request-promise');
 const parser = require('xml2json');
 
 module.exports = (dateString, recordsFrom) => {
-  console.log(`Getting Spending for ${dateString} starting at record ${recordsFrom}`)
   const requestXML = `
     <request>
       <type_of_data>Spending</type_of_data>
@@ -25,7 +24,6 @@ module.exports = (dateString, recordsFrom) => {
     followAllRedirects: true,
   })
     .then((response) => {
-      console.log('Processing XML response...') // eslint-disable-line
       const json = parser.toJson(response, {
         object: true,
       });
