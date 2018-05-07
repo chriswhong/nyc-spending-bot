@@ -13,7 +13,10 @@ const sendTweet = (status) => {
   console.log(`Tweeting...`);
   console.log(status);
   client.post('statuses/update', { status }, (error, tweet, response) => {
-    if (error) throw error;
+    if (error) {
+      console.log(error);
+      throw error;
+    }
   });
 };
 

@@ -25,7 +25,7 @@ const getSpending = () => {
         getSpending();
       } else {
         console.log(`All ${transactionCount} transactions downloaded...`);
-        const tweetStrings = processTransactions(transactions, dateString);
+        const tweetStrings = processTransactions(allTransactions, dateString);
         sendTweets(tweetStrings);
       }
     });

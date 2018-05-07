@@ -27,7 +27,7 @@ const stringifyAgencySummaries = (agencySummaries, dateString) => Object.keys(ag
     const id = agencyIdLookup[key];
     const hyperlink = `https://www.checkbooknyc.com/spending/search/transactions/agency/${id}/chkdate/${dateString}~${dateString}`;
 
-    return `On ${moment(dateString).format('MMMM Do')}, the ${key} had ${count} spending transaction${count > 1 ? 's' : ''} totalling ${numeral(sum).format('$0,0.00')}. Categories included ${printCategories} ${hyperlink}`;
+    return `On ${moment(dateString).format('MMMM Do')}, the ${key} had ${count} spending transaction${count > 1 ? 's' : ''} totaling ${numeral(sum).format('$0,0.00')}. ${hyperlink}`;
   });
 
 const processTransactions = (transactions, dateString) => {
