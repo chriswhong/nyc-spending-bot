@@ -20,14 +20,15 @@ const summarizeByAgency = (transactions) => {
 const stringifyAgencySummaries = (agencySummaries, dateString) => Object.keys(agencySummaries)
   .map((key) => {
     const d = agencySummaries[key];
-    const { sum, count, categories } = d;
-    const normalizedCategories = categories.map(c => c.toTitleCase());
-    const printCategories = normalizedCategories.map(n => `'${n}'`).join(', ');
+    const { sum, count } = d;
 
-    const id = agencyIdLookup[key];
+    const { id, twitter } = agencyIdLookup[key];
     const hyperlink = `https://www.checkbooknyc.com/spending/search/transactions/agency/${id}/chkdate/${dateString}~${dateString}`;
+    let agency = key;
+    if (twitter) agency = `${agency} (${twitter})`;
 
-    return `On ${moment(dateString).format('MMMM Do')}, the ${key} had ${count} spending transaction${count > 1 ? 's' : ''} totaling ${numeral(sum).format('$0,0.00')}. ${hyperlink}`;
+
+    return `On ${moment(dateString).format('MMMM Do')}, the ${agency} had ${count} spending transaction${count > 1 ? 's' : ''} totaling ${numeral(sum).format('$0,0.00')}. ${hyperlink}`;
   });
 
 const processTransactions = (transactions, dateString) => {

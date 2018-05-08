@@ -1,147 +1,582 @@
 {
-   "Administration for Children'  s Services": 50,
-   "Board of Correction": 43,
-   "Board of Elections": 5,
-   "Borough President - Bronx": 30,
-   "Borough President - Brooklyn": 11,
-   "Borough President - Manhattan": 24,
-   "Borough President - Queens": 21,
-   "Borough President - Staten Island": 16,
-   "Bronx Community Board # 1": 126,
-   "Bronx Community Board # 10": 103,
-   "Bronx Community Board # 11": 119,
-   "Bronx Community Board # 12": 133,
-   "Bronx Community Board # 2": 136,
-   "Bronx Community Board # 3": 173,
-   "Bronx Community Board # 4": 104,
-   "Bronx Community Board # 5": 95,
-   "Bronx Community Board # 6": 125,
-   "Bronx Community Board # 7": 135,
-   "Bronx Community Board # 8": 73,
-   "Bronx Community Board # 9": 155,
-   "Brooklyn Community Board # 1": 128,
-   "Brooklyn Community Board # 10": 117,
-   "Brooklyn Community Board # 11": 142,
-   "Brooklyn Community Board # 12": 187,
-   "Brooklyn Community Board # 13": 206,
-   "Brooklyn Community Board # 14": 53,
-   "Brooklyn Community Board # 15": 58,
-   "Brooklyn Community Board # 16": 69,
-   "Brooklyn Community Board # 17": 149,
-   "Brooklyn Community Board # 18": 188,
-   "Brooklyn Community Board # 2": 186,
-   "Brooklyn Community Board # 3": 143,
-   "Brooklyn Community Board # 4": 144,
-   "Brooklyn Community Board # 5": 152,
-   "Brooklyn Community Board # 6": 148,
-   "Brooklyn Community Board # 7": 181,
-   "Brooklyn Community Board # 8": 191,
-   "Brooklyn Community Board # 9": 183,
-   "Brooklyn Public Library": 33,
-   "Business Integrity Commission": 147,
-   "Campaign Finance Board": 6,
-   "City Clerk": 38,
-   "City Council": 132,
-   "City University Construction Fund": 39,
-   "City University of New York": 27,
-   "Civilian Complaint Review Board": 32,
-   "Civil Service Commission": 80,
-   "Commission on Human Rights": 76,
-   "Conflicts of Interest Board": 120,
-   "DCASDIVISION OF MUNICIPAL SUPPLY SERVICE": 180,
-   "Debt Service": 26,
-   "Department for the Aging": 44,
-   "Department of Buildings": 212,
-   "Department of City Planning": 2,
-   "Department of Citywide Administrative Services": 161,
-   "Department of Consumer Affairs": 205,
-   "Department of Correction": 91,
-   "Department of Cultural Affairs": 37,
-   "Department of Design and Construction": 176,
-   "Department of Education": 18,
-   "Department of Emergency Management": 67,
-   "Department of Environmental Protection": 86,
-   "Department of Finance": 218,
-   "Department of Health and Mental Hygiene": 151,
-   "Department of Homeless Services": 96,
-   "Department of Information Technology and Telecommunications": 123,
-   "Department of Investigation": 3,
-   "Department of Juvenile Justice": 87,
-   "Department of Parks and Recreation": 209,
-   "Department of Probation": 59,
-   "Department of Records and Information Services": 194,
-   "Department of Sanitation": 197,
-   "Department of Small Business Services": 182,
-   "Department of Social Services": 138,
-   "Department of Transportation": 145,
-   "DEPARTMENT OF VETERANS'  SERVICES": 220,
-   "Department of Youth and Community Development": 130,
-   "District Attorney - Bronx County": 140,
-   "District Attorney -Kings County": 211,
-   "District Attorney - New York County": 196,
-   "District Attorney - Queens County": 202,
-   "District Attorney -Richmond County": 213,
-   "Districting Commission": 156,
-   "Equal Employment Practices Commission": 157,
-   "Financial Information Services Agency": 108,
-   "Fire Department": 74,
-   "Health and Hospitals Corporation": 141,
-   "HEALTH PAYMENTS": 111,
-   "Housing Preservation and Development": 124,
-   "Independent Budget Office": 99,
-   "Landmarks Preservation Commission": 35,
-   "Law Department": 10,
-   "Manhattan Community Board # 1": 112,
-   "Manhattan Community Board # 10": 93,
-   "Manhattan Community Board # 11": 100,
-   "Manhattan Community Board # 12": 60,
-   "Manhattan Community Board # 2": 49,
-   "Manhattan Community Board # 3": 110,
-   "Manhattan Community Board # 4": 175,
-   "Manhattan Community Board # 5": 64,
-   "Manhattan Community Board # 6": 52,
-   "Manhattan Community Board # 7": 137,
-   "Manhattan Community Board # 8": 131,
-   "Manhattan Community Board # 9": 193,
-   "Mayoralty": 9,
-   "Miscellaneous": 22,
-   "New York Public Library": 13,
-   "New York Research Libraries": 31,
-   "NYC Taxi and Limousine Commission": 78,
-   "Office of Administrative Tax Appeals": 7,
-   "Office of Administrative Trials and Hearings": 83,
-   "Office of Collective Bargaining": 75,
-   "Office of Payroll Administration": 90,
-   "Office of Prosecution - Special Narcotics": 68,
-   "Office of the Actuary": 66,
-   "Office of the Comptroller": 25,
-   "Pension Contributions": 56,
-   "Police Department": 51,
-   "Public Administrator-Bronx County": 158,
-   "Public Administrator-Kings County": 160,
-   "Public Administrator-New York County": 102,
-   "Public Administrator-Queens County": 169,
-   "Public Administrator-Richmond County": 199,
-   "Public Advocate": 79,
-   "Queens Borough Public Library": 12,
-   "Queens Community Board # 1": 89,
-   "Queens Community Board # 10": 167,
-   "Queens Community Board # 11": 129,
-   "Queens Community Board # 12": 184,
-   "Queens Community Board # 13": 107,
-   "Queens Community Board # 14": 200,
-   "Queens Community Board # 2": 40,
-   "Queens Community Board # 3": 154,
-   "Queens Community Board # 4": 77,
-   "Queens Community Board # 5": 153,
-   "Queens Community Board # 6": 174,
-   "Queens Community Board # 7": 94,
-   "Queens Community Board # 8": 172,
-   "Queens Community Board # 9": 198,
-   "SCHOOL CONSTRUCTION AUTHORITY": 98,
-   "Staten Island Community Board # 1": 92,
-   "Staten Island Community Board # 2": 170,
-   "Staten Island Community Board # 3": 121,
-   "Transit Authority": 177,
-   "WATER SUPPLY": 113
+	"Administration for Children's Services": {
+		"id": 50,
+		"twitter": "@ACSNYC"
+	},
+	"Board of Correction": {
+		"id": 43,
+    "twitter": ""
+	},
+	"Board of Elections": {
+		"id": 5,
+		"twitter": "@boenyc"
+	},
+	"Borough President - Bronx": {
+		"id": 30,
+		"twitter": "@bronxbp"
+	},
+	"Borough President - Brooklyn": {
+		"id": 11,
+		"twitter": "@BPEricAdams"
+	},
+	"Borough President - Manhattan": {
+		"id": 24,
+		"twitter": "@galeabrewer"
+	},
+	"Borough President - Queens": {
+		"id": 21,
+		"twitter": "@melindakatz"
+	},
+	"Borough President - Staten Island": {
+		"id": 16,
+		"twitter": "@statenislusa"
+	},
+	"Bronx Community Board # 1": {
+		"id": 126,
+    "twitter": ""
+	},
+	"Bronx Community Board # 10": {
+		"id": 103,
+    "twitter": ""
+	},
+	"Bronx Community Board # 11": {
+		"id": 119,
+    "twitter": ""
+	},
+	"Bronx Community Board # 12": {
+		"id": 133,
+    "twitter": ""
+	},
+	"Bronx Community Board # 2": {
+		"id": 136,
+    "twitter": ""
+	},
+	"Bronx Community Board # 3": {
+		"id": 173,
+    "twitter": ""
+	},
+	"Bronx Community Board # 4": {
+		"id": 104,
+    "twitter": ""
+	},
+	"Bronx Community Board # 5": {
+		"id": 95,
+    "twitter": ""
+	},
+	"Bronx Community Board # 6": {
+		"id": 125,
+    "twitter": ""
+	},
+	"Bronx Community Board # 7": {
+		"id": 135,
+    "twitter": ""
+	},
+	"Bronx Community Board # 8": {
+		"id": 73,
+    "twitter": ""
+	},
+	"Bronx Community Board # 9": {
+		"id": 155,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 1": {
+		"id": 128,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 10": {
+		"id": 117,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 11": {
+		"id": 142,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 12": {
+		"id": 187,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 13": {
+		"id": 206,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 14": {
+		"id": 53,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 15": {
+		"id": 58,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 16": {
+		"id": 69,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 17": {
+		"id": 149,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 18": {
+		"id": 188,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 2": {
+		"id": 186,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 3": {
+		"id": 143,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 4": {
+		"id": 144,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 5": {
+		"id": 152,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 6": {
+		"id": 148,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 7": {
+		"id": 181,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 8": {
+		"id": 191,
+    "twitter": ""
+	},
+	"Brooklyn Community Board # 9": {
+		"id": 183,
+    "twitter": ""
+	},
+	"Brooklyn Public Library": {
+		"id": 33,
+		"twitter": "@BKLYNlibrary"
+	},
+	"Business Integrity Commission": {
+		"id": 147,
+		"twitter": "@nycbic"
+	},
+	"Campaign Finance Board": {
+		"id": 6,
+		"twitter": "@nyccfb"
+	},
+	"City Clerk": {
+		"id": 38,
+		"twitter": "@NYCClerk"
+	},
+	"City Council": {
+		"id": 132,
+		"twitter": "@NYCCouncil"
+	},
+	"City University Construction Fund": {
+		"id": 39,
+    "twitter": ""
+	},
+	"City University of New York": {
+		"id": 27,
+		"twitter": "@cuny"
+	},
+	"Civilian Complaint Review Board": {
+		"id": 32,
+		"twitter": "@ccrb_nyc"
+	},
+	"Civil Service Commission": {
+		"id": 80,
+    "twitter": ""
+	},
+	"Commission on Human Rights": {
+		"id": 76,
+		"twitter": "@NYCCHR"
+	},
+	"Conflicts of Interest Board": {
+		"id": 120,
+		"twitter": "@NYCCOIB"
+	},
+	"DCASDIVISION OF MUNICIPAL SUPPLY SERVICE": {
+		"id": 180,
+		"twitter": "@nycdcas"
+	},
+	"Debt Service": {
+		"id": 26,
+    "twitter": ""
+	},
+	"Department for the Aging": {
+		"id": 44,
+		"twitter": "@NYCSeniors"
+	},
+	"Department of Buildings": {
+		"id": 212,
+		"twitter": "@NYC_Buildings"
+	},
+	"Department of City Planning": {
+		"id": 2,
+		"twitter": "@nycplanning"
+	},
+	"Department of Citywide Administrative Services": {
+		"id": 161,
+		"twitter": "@nycdcas"
+	},
+	"Department of Consumer Affairs": {
+		"id": 205,
+		"twitter": "@NYCDCA"
+	},
+	"Department of Correction": {
+		"id": 91,
+		"twitter": "@CorrectionNYC"
+	},
+	"Department of Cultural Affairs": {
+		"id": 37,
+		"twitter": "@NYCulture"
+	},
+	"Department of Design and Construction": {
+		"id": 176,
+		"twitter": "@nycddc"
+	},
+	"Department of Education": {
+		"id": 18,
+		"twitter": "@NYCSchools"
+	},
+	"Department of Emergency Management": {
+		"id": 67,
+		"twitter": "@nycoem"
+	},
+	"Department of Environmental Protection": {
+		"id": 86,
+    "twitter": ""
+	},
+	"Department of Finance": {
+		"id": 218,
+		"twitter": "@NYCFinance"
+	},
+	"Department of Health and Mental Hygiene": {
+		"id": 151,
+		"twitter": "@nychealthy"
+	},
+	"Department of Homeless Services": {
+		"id": 96,
+		"twitter": "@NYCDHS"
+	},
+	"Department of Information Technology and Telecommunications": {
+		"id": 123,
+		"twitter": "@NYCDoITT"
+	},
+	"Department of Investigation": {
+		"id": 3,
+		"twitter": "@nyc_doi"
+	},
+	"Department of Juvenile Justice": {
+		"id": 87,
+    "twitter": ""
+	},
+	"Department of Parks and Recreation": {
+		"id": 209,
+		"twitter": "@NYCParks"
+	},
+	"Department of Probation": {
+		"id": 59,
+		"twitter": "@nycprobation"
+	},
+	"Department of Records and Information Services": {
+		"id": 194,
+		"twitter": "@nycrecords"
+	},
+	"Department of Sanitation": {
+		"id": 197,
+		"twitter": "@NYCSanitation"
+	},
+	"Department of Small Business Services": {
+		"id": 182,
+		"twitter": "@nyc_sbs"
+	},
+	"Department of Social Services": {
+		"id": 138,
+		"twitter": "@nychra"
+	},
+	"Department of Transportation": {
+		"id": 145,
+		"twitter": "@NYC_DOT"
+	},
+	"DEPARTMENT OF VETERANS' SERVICES": {
+		"id": 220,
+		"twitter": "@nycveterans"
+	},
+	"Department of Youth and Community Development": {
+		"id": 130,
+		"twitter": "@nycyouth"
+	},
+	"District Attorney - Bronx County": {
+		"id": 140,
+		"twitter": "@bronxdaclark"
+	},
+	"District Attorney -Kings County": {
+		"id": 211,
+		"twitter": "@BrooklynDA"
+	},
+	"District Attorney - New York County": {
+		"id": 196,
+		"twitter": "@ManhattanDA"
+	},
+	"District Attorney - Queens County": {
+		"id": 202,
+		"twitter": "@queensdabrown"
+	},
+	"District Attorney -Richmond County": {
+		"id": 213,
+		"twitter": "@statenislandda"
+	},
+	"Districting Commission": {
+		"id": 156,
+    "twitter": ""
+	},
+	"Equal Employment Practices Commission": {
+		"id": 157,
+    "twitter": ""
+	},
+	"Financial Information Services Agency": {
+		"id": 108,
+    "twitter": ""
+	},
+	"Fire Department": {
+		"id": 74,
+		"twitter": "@FDNY"
+	},
+	"Health and Hospitals Corporation": {
+		"id": 141,
+		"twitter": "@nychealthsystem"
+	},
+	"HEALTH PAYMENTS": {
+		"id": 111,
+    "twitter": ""
+	},
+	"Housing Preservation and Development": {
+		"id": 124,
+		"twitter": "@NYCHousing"
+	},
+	"Independent Budget Office": {
+		"id": 99,
+		"twitter": "@nycibo"
+	},
+	"Landmarks Preservation Commission": {
+		"id": 35,
+		"twitter": "@nyclandmarks"
+	},
+	"Law Department": {
+		"id": 10,
+    "twitter": ""
+	},
+	"Manhattan Community Board # 1": {
+		"id": 112,
+		"twitter": "@communityboard1"
+	},
+	"Manhattan Community Board # 10": {
+		"id": 93,
+    "twitter": ""
+	},
+	"Manhattan Community Board # 11": {
+		"id": 100,
+    "twitter": ""
+	},
+	"Manhattan Community Board # 12": {
+		"id": 60,
+    "twitter": ""
+	},
+	"Manhattan Community Board # 2": {
+		"id": 49,
+    "twitter": ""
+	},
+	"Manhattan Community Board # 3": {
+		"id": 110,
+    "twitter": ""
+	},
+	"Manhattan Community Board # 4": {
+		"id": 175,
+    "twitter": ""
+	},
+	"Manhattan Community Board # 5": {
+		"id": 64,
+    "twitter": ""
+	},
+	"Manhattan Community Board # 6": {
+		"id": 52,
+    "twitter": ""
+	},
+	"Manhattan Community Board # 7": {
+		"id": 137,
+    "twitter": ""
+	},
+	"Manhattan Community Board # 8": {
+		"id": 131,
+    "twitter": ""
+	},
+	"Manhattan Community Board # 9": {
+		"id": 193,
+    "twitter": ""
+	},
+	"Mayoralty": {
+		"id": 9,
+		"twitter": "@nycmayorsoffice"
+	},
+	"Miscellaneous": {
+		"id": 22,
+    "twitter": ""
+	},
+	"New York Public Library": {
+		"id": 13,
+		"twitter": "@nypl"
+	},
+	"New York Research Libraries": {
+		"id": 31,
+    "twitter": ""
+	},
+	"NYC Taxi and Limousine Commission": {
+		"id": 78,
+		"twitter": "@nyctaxi"
+	},
+	"Office of Administrative Tax Appeals": {
+		"id": 7,
+    "twitter": ""
+	},
+	"Office of Administrative Trials and Hearings": {
+		"id": 83,
+    "twitter": ""
+	},
+	"Office of Collective Bargaining": {
+		"id": 75,
+    "twitter": ""
+	},
+	"Office of Payroll Administration": {
+		"id": 90,
+    "twitter": ""
+	},
+	"Office of Prosecution - Special Narcotics": {
+		"id": 68,
+		"twitter": "@snpnyc"
+	},
+	"Office of the Actuary": {
+		"id": 66,
+		"twitter": "@nycactuary"
+	},
+	"Office of the Comptroller": {
+		"id": 25,
+		"twitter": "@nyccomptroller"
+	},
+	"Pension Contributions": {
+		"id": 56,
+    "twitter": ""
+	},
+	"Police Department": {
+		"id": 51,
+		"twitter": "@nypdnews"
+	},
+	"Public Administrator-Bronx County": {
+		"id": 158,
+    "twitter": ""
+	},
+	"Public Administrator-Kings County": {
+		"id": 160,
+    "twitter": ""
+	},
+	"Public Administrator-New York County": {
+		"id": 102,
+    "twitter": ""
+	},
+	"Public Administrator-Queens County": {
+		"id": 169,
+		"twitter": "@paqueenscounty"
+	},
+	"Public Administrator-Richmond County": {
+		"id": 199,
+    "twitter": ""
+	},
+	"Public Advocate": {
+		"id": 79,
+		"twitter": "@nycpa"
+	},
+	"Queens Borough Public Library": {
+		"id": 12,
+		"twitter": "@queenslibrary"
+	},
+	"Queens Community Board # 1": {
+		"id": 89,
+    "twitter": ""
+	},
+	"Queens Community Board # 10": {
+		"id": 167,
+    "twitter": ""
+	},
+	"Queens Community Board # 11": {
+		"id": 129,
+    "twitter": ""
+	},
+	"Queens Community Board # 12": {
+		"id": 184,
+    "twitter": ""
+	},
+	"Queens Community Board # 13": {
+		"id": 107,
+    "twitter": ""
+	},
+	"Queens Community Board # 14": {
+		"id": 200,
+    "twitter": ""
+	},
+	"Queens Community Board # 2": {
+		"id": 40,
+    "twitter": ""
+	},
+	"Queens Community Board # 3": {
+		"id": 154,
+    "twitter": ""
+	},
+	"Queens Community Board # 4": {
+		"id": 77,
+    "twitter": ""
+	},
+	"Queens Community Board # 5": {
+		"id": 153,
+    "twitter": ""
+	},
+	"Queens Community Board # 6": {
+		"id": 174,
+    "twitter": ""
+	},
+	"Queens Community Board # 7": {
+		"id": 94,
+    "twitter": ""
+	},
+	"Queens Community Board # 8": {
+		"id": 172,
+    "twitter": ""
+	},
+	"Queens Community Board # 9": {
+		"id": 198,
+    "twitter": ""
+	},
+	"SCHOOL CONSTRUCTION AUTHORITY": {
+		"id": 98,
+    "twitter": ""
+	},
+	"Staten Island Community Board # 1": {
+		"id": 92,
+    "twitter": ""
+	},
+	"Staten Island Community Board # 2": {
+		"id": 170,
+    "twitter": ""
+	},
+	"Staten Island Community Board # 3": {
+		"id": 121,
+    "twitter": ""
+	},
+	"Transit Authority": {
+		"id": 177,
+    "twitter": ""
+	},
+	"WATER SUPPLY": {
+		"id": 113,
+		"twitter": "@nycwater"
+	}
 }

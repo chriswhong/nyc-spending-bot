@@ -10,6 +10,9 @@ const allTransactions = [];
 let transactionCount = null;
 let transactionsFrom = 1;
 
+console.log(process.env.NODE_ENV);
+
+
 // recursive function to paginate through checkbook NYC API
 const getSpending = () => {
   console.log(`Making API call for ${dateString}, starting from record ${transactionsFrom}...`);
@@ -26,7 +29,16 @@ const getSpending = () => {
       } else {
         console.log(`All ${transactionCount} transactions downloaded...`);
         const tweetStrings = processTransactions(allTransactions, dateString);
-        sendTweets(tweetStrings);
+
+        // only send tweets in production
+        // otherwise, console log all the tweets
+        if (process.NODE_ENV === 'production') {
+          sendTweets(tweetStrings);
+        } else {
+          tweetStrings.forEach((status) => {
+            console.log(status);
+          });
+        }
       }
     });
 };
