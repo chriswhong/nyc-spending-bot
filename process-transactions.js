@@ -17,8 +17,12 @@ const summarizeByAgency = (transactions) => {
   return mapped;
 };
 
+
 const stringifyAgencySummaries = (agencySummaries, dateString) => Object.keys(agencySummaries)
+// filter out keys that aren't in the lookup JSON
+  .filter(key => Object.hasOwnProperty.call(agencyIdLookup, key))
   .map((key) => {
+    console.log(key);
     const d = agencySummaries[key];
     const { sum, count } = d;
 
